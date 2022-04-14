@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<View>
+
+<Image name="image" value="$imagepath"/>
+
+<Labels name="label" toName="image">
+
+
+<Label value="Person"/>
+
+
+<Label value="Result"/>
+
+</Labels>
+
+<TextArea name="transcription" toName="image" editable="true" perRegion="true" maxSubmissions="2" rows="1" displayMode="region-list"/>
+
+<Rectangle name="bbox" toName="image" strokeWidth="3"/>
+</View>
